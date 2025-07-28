@@ -1,0 +1,10 @@
+{
+  "name": "Academia Cliente Exemplo",
+  "slug": "cliente-exemplo",
+  "version": "1.0.0",
+  "webviewUrl": "https://meudominio.com.br",
+  "package": "com.dominio.clienteexemplo",
+  "backgroundColor": "#0d4724",
+  "cor1": "#141414",
+  "cor2": "#0D0D0D"
+}

@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "{{name}}",
+    "slug": "{{slug}}",
+    "version": "{{version}}",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "{{backgroundColor}}"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "{{package}}",
+      "infoPlist": {
+        "NSCameraUsageDescription": "O app precisa de acesso à câmera para permitir que você tire fotos e atualize sua imagem de perfil. Nenhuma foto será usada sem sua permissão explícita",
+        "NSPhotoLibraryUsageDescription": "O app precisa de acesso à sua biblioteca de fotos para que você possa selecionar uma imagem para definir como foto de perfil. Nenhuma imagem será usada sem sua autorização.",
+        "NSPhotoLibraryAddUsageDescription": "O app precisa de permissão para salvar fotos tiradas usando a câmera diretamente na sua biblioteca, para que você tenha uma cópia das imagens capturadas."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "{{backgroundColor}}"
+      },
+      "package": "{{package}}",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "amadeonSilveira"
+  }
+}
